@@ -19,8 +19,8 @@ Gem::Specification.new do |spec|
   spec.require_paths  = ['lib']
 
   # Gems that must be installed
-  spec.add_dependency 'faraday', '~> 0.9'
-  spec.add_dependency 'faraday_middleware', '~> 0.9'
+  spec.add_dependency 'faraday'
+  spec.add_dependency 'faraday_middleware'
 
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'webmock'
